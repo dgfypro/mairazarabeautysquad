@@ -21,189 +21,350 @@
   <title>Mairazarabeautysquad</title>
 </head>
 <body>
-<section style="background-color: #d2844d;color: #ffffff;overflow: hidden;">
-    <div class="feature__grid grid items-center">
-      <h4 class="hero-title" style="
-      text-align: center;
-      min-height: 90vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  ">Site Under Construction</h4>
-<p class="hero-title" style="
-      text-align: center;
-      font-size: 2em!important;
-      padding: 0.5em;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  ">made by dgfypro</p>
-    </div>
-</section>
+    <header class="f-header js-f-header position-relative" style="position: absolute;">
+      <div class="f-header__mobile-content container max-width-lg">
+        <a href="#0" class="f-header__logo">
+          <img src="assets/img/logo.png" style="
+          filter: invert(1);
+      ">
+          <!-- <svg width="104" height="30" viewBox="0 0 104 30">
+            <title>Wonderlab</title>
+            <path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" fill="var(--color-contrast-higher)" />
+            <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+          </svg> -->
+        </a>
+    
+        <button class="reset anim-menu-btn js-anim-menu-btn f-header__nav-control js-tab-focus" aria-label="Toggle menu">
+          <i class="anim-menu-btn__icon anim-menu-btn__icon--close" aria-hidden="true"></i>
+        </button>
+      </div>
+    
+      <div class="f-header__nav" role="navigation">
+        <div class="f-header__nav-grid justify-between@md container max-width-lg">
+          <div class="f-header__nav-logo-wrapper flex-grow flex-basis-0">
+            <a href="#0" class="f-header__logo">
+              <img src="assets/img/logo.png" style="
+              filter: invert(1);
+          ">
+              <!-- <svg width="104" height="30" viewBox="0 0 104 30">
+                <title>Wonderlab</title>
+                <path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" fill="var(--color-contrast-higher)" />
+                <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+              </svg> -->
+            </a>
+          </div>
+    
+          <ul class="f-header__list flex-grow flex-basis-0 justify-center@md">
+            <li class="f-header__item"><a href="index.html" class="f-header__link" style="
+              filter: invert(1);
+          ">Home</a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link">
+                <span style="
+                filter: invert(1);
+            ">Brands</span>
+                <svg class="f-header__dropdown-icon icon" aria-hidden="true" viewBox="0 0 12 12">
+                  <path d="M6,9l4-5H2Z" /></svg>
+              </a>
+    
+              <ul class="f-header__dropdown">
+                <li><a href="wonder-dewi-mask.html" class="f-header__dropdown-link" style="
+                  filter: invert(1);
+              ">Wonder Dewi Mask</a></li>
+                <li><a href="haruharu-black-rice-series.html" class="f-header__dropdown-link" style="
+                  filter: invert(1);
+              ">Haruharu Black Rice Series</a></li>
+                <li><a href="well-nature-series.html" class="f-header__dropdown-link" style="
+                  filter: invert(1);
+              ">Well Nature Series</a></li>
+              </ul>
+            </li>
+            <li class="f-header__item"><a href="join-us.html" class="f-header__link" aria-current="page" style="
+              filter: invert(1);
+          ">Join Us</a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+          </ul>
+    
+          <ul class="f-header__list flex-grow flex-basis-0 justify-end@md">
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
-
-
-  <!-- <section class="display-none-web" style="background-color: #fae07e;">
-    <div class="feature__grid grid items-center">
-      <div class="col-12@md">
-          <img src="assets/img/asset3_2.png" data-aos="fade-down" data-aos-delay="100"
+  <main id="main-content">
+    <section class="hero min-height-100vh flex items-center" style="background-image: url('assets/img/w2/hero4.png')">
+      <div class="container max-width-adaptive-sm">
+        <div class="text-center">
+          <div class="text-sm opacity-60% margin-bottom-xxs"></div>
+    
+          <div class="text-component margin-bottom-sm" data-aos="fade-up" data-aos-delay="100"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="display-none-mobile" style="background-color: #fae07e;">
-  <div class="feature__grid grid items-center">
-    <div class="col-6@md">
-        <img src="assets/img/asset3_1.png" data-aos="fade-up" data-aos-delay="100"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out">
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="feature padding-y-xl padding-bottom-xl" style="
-background-color: #eedacd;
-">
-  <div class="container max-width-adaptive-lg">
-    <div class="feature__grid grid grid-gap-md items-center">
-      <div class="col-6@md">
-        <div class="feature__item">
-          <div class="feature__label padding-bottom-xxs">Interested to join us?</div>
-  
-          <div class="text-component">
-            <h1 class="product1_v2" style="
-            font-size: 3.5em;
-        ">We invite
-              You to join
-              Our Team.</h1>
+            <p>Anti-Pollution Series</p>
+            <h1 class="hero-title" style="color: #3e4146!important;">Well Nature’</h1>
+            <p></p>
           </div>
-          <div class="padding-top-sm">
-            <div class="flex flex-wrap flex-gap-sm items-center">
-              <a href="#0" class="color-inherit" style="
-              color: #df7946;
-              text-decoration: underline!important;
-          ">Apply Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section style="background-color: #ddb593; color: #ffffff;">
+      <div class="feature__grid grid items-center">
+        <h4 class="hero-title"style="
+        text-align: center;
+        font-size: 2.3em!important;
+        padding: 0.5em;
+    ">The Collections</h4>
+      </div>
+  </section>
+  <section style="background-color: #ffffff;">
+        <div class="container max-width-md padding-y-xl padding-bottom-xl aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <div class="grid grid-gap-lg">
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <!-- <span class="prod-card__badge" role="text">New <i class="sr-only">product</i></span> -->
+            
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/w2/products/01.png">
+                </figure>
+              </a>
+            
+              <div class="prod-card__content text-left" style="
+              padding: 0;
+          ">
+                  <p class="product1_v3">Double Moisture Mask (10pcs)</p>
+                  <br>
+                  <p class="text-padding-wline">RM168.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.8em; text-align: justify;
+              ">Glycerin Humectant,Butylene Glycol,1,2-Hexanediol,5 PEG-75, Dipropylene Glycol,Sodium Hyaluronate,Biosaccharide gum-4 ,Oryza Sativa (Rice) Germ Extract,Phaseolus Radiatus Sprout Extract ,Glycine Soja (Soybean) Sprout Extract,Triticum Vulgare (Wheat) Sprout Extract,Sesamum Indicum (Sesame) Sprout Extract ,Limnanthes Alba (Meadowfoam) Seed Oil Skin-Conditioning, Glyceryl Acrylate/Acrylic Acid Copolymer,PVM/MA Copolymer Emulsion,EG-60 Hydrogenated Castor Oil ,Arginine pH,Carbomer ,Xanthan Gum,Disodium EDTA,Ethylhexylglycerin,
+              Phenoxyethanol Preservative,Citrus Aurantium Dulcis (Orange) Peel Oil</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/w2/products/02.png">
+                </figure>
+              </a>
+            
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">Moisture Seed Lip Care Set</p>
+                  <br>
+                  <p class="text-padding-wline">RM128.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.8em; font-weight:600;
+              ">Nourishing Lip Balm</p>
+              </br>
+              <p style="
+              font-size: 0.8em; text-align: justify;
+          ">Dipentaerythrityl,
+          Hexahyfroxystearate
+          /Hexastearate/Hexarosinate,
+          Polybutene,
+          Caprylic/Capric Triglceride,
+          Diisostearyl Malate,
+          Phytosteryl Isostearyl 
+          Dimer Dilinoleate,
+          Triethylhexanoin,
+          Hydrogenated Vegetable Oil ,Beeswax ,
+          Ceresin,Ozokerite,Polyethylene,
+          Microcrytalline Wax,Tocopheryl Acetate ,
+          Hydrogenated Castor Oil,Water,BHT,Prunus 
+          Armeniaca(APRICOT) Kernel Oil,Macadamia Ternifolia Seed Oil,Helianthus 
+          Annuus (SUNFLOWER) Seed Oil,Glycerin,
+          Propanediol,Hydrolyzed Collagen ,
+          1,2-Hexanediol,Butylene Glycol,Centella Asiatica Extract,Biosaccharide gum,Sesamum Indicum (Sesame) Sprout Extract,Triticum Vulgare (Wheat) Sprout Extract,Glycine Soja (Soybean) Sprout Extract,Phaseolus Radiatus Sprout Extract,Oryza Sativa (Rice) Germ Extract,Tocopherol ,Ethylhexylglycerin</p>
+        </br>
+             <p style="
+              font-size: 0.8em; font-weight:600;
+          ">Tinted Lip Balm</p>
+          </br>
+          <p style="
+          font-size: 0.8em; text-align: justify;
+      ">Caprylic/Capric Triglceride,
+      Polybutene,Phytosteryl Isostearyl 
+      Dimer Dilinoleate, 
+      Phytosteryl/Isostearyl/Cetyl/
+      Stearyl/Behenyl Dimer Dolonoleate,
+      Caprylic/Capric /Myritic/Stearic 
+      Triglyceride,Hydrogenated 
+      Castor Oil Dimer Dilinoleate, 
+      Ceresin,Ozokerite, Hydrogenated 
+      Castor Oil Isostearate,
+      Triethylhexanoin,Synthentic Wax ,Tophrry; Acetate ,Etheylene/Propylene Copoymer VP/Hexadecene Copolyme,Etheylhexyl Methoxycinnamate,RED 27 (CI 45410),Polyglyceryl-2 Triisosteatrate ,RED 28 (CI 45410),Titanium Dioxide,YELLOW 5 ,BHT ,WatrePrunus Armeniaca(APRICOT) Kernel Oil,Macadamia Ternifolia Seed Oil,Helianthus Annuus (SUNFLOWER) Seed Oil,Pro[anediol ,Hydrolyzed Collagen ,1,2-Hexanediol,Butylene Glycol,Biosaccharide gum-4,Glycine Soja (Soybean) Sprout Extract,Phaseolus Radiatus Sprout Extract,Oryza Sativa (Rice) Germ Extract, Sesamum Indicum (Sesame) Sprout Extract, Triticum Vulgare (Wheat) Sprout Extract,Tocopherol ,Ethylhexylglycerin
+      </p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/w2/products/03.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">Moisture Seed Capsule Cream 50ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM198.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.8em; text-align: justify;
+              ">Water,Glycerin,
+              Polydecene,Butylene Glycol,
+              PEG-8,Betaine ,PEG-32,Pentylene Glycol,
+              1,2-Hexanediol,
+              Bis-PEG-18 Methyl Ether Dimethyl 
+              Silane,Alcohol Denat.,Hydroxyethyl 
+              Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, 
+              Trehalose,Acrylates/C10-30 Alkyl 
+              Acrylate Crosspolymer, 
+              PEG-60 Hydrogenated Castor Oil ,Tromethamine ,Phenoxyethanol, 
+              Acacia Senegal Gum,Xanthan Gum ,Glyceryl Acrylate/Acrylic Acid 
+              copolymer, Gelatin,Ethylhexylglycerin,
+              Fragrance(Parfum), Propanediol,
+              Dipotassium Glycyrrhizate,Pyrus Malus (Apple) Fruit Water,Disodium EDTA, 
+              Dextrin, Theobroma Cacao (Cocoa) Extract ,BHT ,
+              Glycine Soja (Soybean) Sprout Extract ,Oryza Sativa (Rice) Germ Extract,Phaseolus Radiatus Sprout Extract,Sesamum Indicum (Sesame) Sprout Extract,Triticum Vulgare (Wheat) Sprout Extract ,Dipropylene Glycol,Hydrogenated Lecithin ,Sodium Hyaluronate ,Polyglutamic Acid,PEG-40 Hydrogenated Castor Oil</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/w2/products/04.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">Moisture Seed Capsule Essence 50ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM218.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.8em; text-align: justify;
+              ">Water,Glycerin,
+              Methyl Gluceth-10,Pentylene Glycol,
+              Dimethicone,Pentaerythrityl Tetraethylhexanoate ,
+              1,2-Hexanediol,Dipentaerythrityl 
+              Hexahydroxystearate
+              /Hexastearate/Hexarosinate,
+              PEG-32, Panthenol,
+              Phenoxyethanol,Hydrogenated C
+              astor Oil Dimer Dilinoleate,
+              Linum Usitatissimum (Linseed) Seed Extract ,
+              Behenyl Alcohol,Carbomer,
+              Arginine,Fragrance(Parfum),PVP ,
+              Disodium EDTA ,Sodium Hyaluronate,
+              Butylene Glycol,
+              Glycine Soja (Soybean) Sprout Extract,
+              Oryza Sativa (Rice) Germ Extract, 
+              Phaseolus Radiatus Sprout Extract,
+              Sesamum Indicum (Sesame) Sprout Extract,
+              Triticum Vulgare (Wheat) Sprout Extract,
+              Dipropylene Glycol,Ethylhexylglycerin,
+              Hydrogenated Lecithin,PEG-40 Hydrogenated Castor Oil</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/w2/products/05.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">Moisture Whipping Cleansing Foam 150ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM98.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.8em; text-align: justify;
+              ">Water,Myristic Acid,Glycerin,Potassium Hydroxide,Palmitic Acid ,Stearic Acid,Butylene Glycol, Lauric Acid,Potassium Cocoyl Glycinate,Glycol 
+              Distearate,Sorbitan Olivate,Glyceryl Stearate,PEG-100 Stearate,
+              Cocamidopropyl Betaine,
+              Hydroxyacetophenone,
+              Fragrance,
+              Chlorphenesin,
+              Sodium Chloride,Panthenol,Allantoin,
+              Disodium EDTA,PEG-90M,1,2-Hexanediol,Polyquaternium-7,Triticum Vulgare (Wheat) Sprout Extract, Sesamum Indicum (Sesame) Sprout Extract,Phaseolus Radiatus Sprout Extract,Lepidium Sativum Sprout Extract,
+              Helianthus Annuus (Sunflower) Sprout Extract,
+              Ethylhexylglycerin ,
+              Sodium Benzoatea</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/w2/products/06.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">Moisture Deep Cleansing Oil 170ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM198.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.8em; text-align: justify;
+              ">Cetyl Ethylhexanoate,PEG-8 Glyceryl 
+              Isostearate,
+              Cyclopentasiloxane,Water,
+              Isostearic 
+              Acid,Glycerin,1,2-Hexanediol,Caprylyl 
+              Glycol,Fragrance,Tropolone,
+              Butylene Glycol,
+              Polyquaternium-7,Triticum 
+              Vulgare (Wheat) Sprout Extract,Sesamum Indicum (Sesame) 
+              Sprout Extract,Phaseolus Radiatus Sprout Extract ,
+              Lepidium Sativum Sprout Extract,Helianthus Annuus (Sunflower) 
+              Sprout Extract,Ethylhexylglycerin, Sodium Benzoate</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
     
-      <div class="col-6@md">
-        <div class="dev-phone dev-phone--light-top padding-x-auto" aria-label="">
-         <img src="assets/img/asset5_1.png" data-aos="fade-up" data-aos-delay="100"
-         data-aos-duration="1000"
-         data-aos-easing="ease-in-out">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- carousel -->
-<!-- <section class="feature padding-y-xl padding-bottom-xl" style="
-background-color: #eedacd;
-">
-
-<div class="container">
-    <div class="row">
-      <div class="col-md-12 heroSlider-fixed">
-        <div class="overlay">
-      </div>
-         <!-- Slider 
-        <div class="slider responsive">
-          <div>
-						<img src="assets/img/inf/1.png" alt="" class="slider-img" />
-					</div>
-					<div>
-						<img src="assets/img/inf/2.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/3.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/4.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/5.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/6.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/7.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/8.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/9.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/10.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/11.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/12.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/13.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/14.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/15.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/16.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/17.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/18.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/19.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/20.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/21.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/22.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/23.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/24.png" alt="" class="slider-img"/>
-					</div>
-        </div>
-				 <!-- control arrows 
-				<div class="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				</div>
-				<div class="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				</div>
-				
-      </div>
-    </div>
-  </div>
-  
-</section> -->
 
 
 
-  <!-- <footer class="main-footer padding-y-md">
+
+
+
+  <footer class="main-footer padding-y-md">
     <div class="container max-width-md">
       <div class="main-footer__content">
         <div class="main-footer__logo">
@@ -231,7 +392,7 @@ background-color: #eedacd;
     
         <div class="main-footer__colophon-nav text-center">
           <span style="color:#ffffff">&copy; 2020 Mairazara Beauty Squad WonderLab All Rights Reserved. | Made by dgfypro</span>
-        </div> -->
+        </div>
   
         <!-- <div class="main-footer__socials">
           <a href="#0">
@@ -246,8 +407,8 @@ background-color: #eedacd;
             <svg class="icon" viewBox="0 0 16 16"><title>Follow us on Github</title><g><path  d="M8,0.2c-4.4,0-8,3.6-8,8c0,3.5,2.3,6.5,5.5,7.6 C5.9,15.9,6,15.6,6,15.4c0-0.2,0-0.7,0-1.4C3.8,14.5,3.3,13,3.3,13c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5 c0.8,0.1,1.2,0.8,1.2,0.8C4.4,13.4,5.6,13,6,12.8c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.6-0.9-3.6-4c0-0.9,0.3-1.6,0.8-2.1 c-0.1-0.2-0.4-1,0.1-2.1c0,0,0.7-0.2,2.2,0.8c0.6-0.2,1.3-0.3,2-0.3c0.7,0,1.4,0.1,2,0.3c1.5-1,2.2-0.8,2.2-0.8 c0.4,1.1,0.2,1.9,0.1,2.1c0.5,0.6,0.8,1.3,0.8,2.1c0,3.1-1.9,3.7-3.7,3.9C9.7,12,10,12.5,10,13.2c0,1.1,0,1.9,0,2.2 c0,0.2,0.1,0.5,0.6,0.4c3.2-1.1,5.5-4.1,5.5-7.6C16,3.8,12.4,0.2,8,0.2z"></path></g></svg>
           </a>
         </div> -->
-    <!-- </div>
-  </footer> -->
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
