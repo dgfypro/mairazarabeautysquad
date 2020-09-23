@@ -21,190 +21,507 @@
   <title>Mairazarabeautysquad</title>
 </head>
 <body>
-<section style="background-color: #d2844d;color: #ffffff;overflow: hidden;">
-    <div class="feature__grid grid items-center">
-      <h4 class="hero-title" style="
-      text-align: center;
-      min-height: 90vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  ">Site Under Construction</h4>
-<p class="hero-title" style="
-      text-align: center;
-      font-size: 2em!important;
-      padding: 0.5em;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  ">made by dgfypro</p>
-    </div>
-</section>
+  <!-- start preview -->
+  <div style="
+  background-color: #0000008a;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
+  z-index: 99;
+">
+    <p style="
+    font-family: 'Roboto', sans-serif;
+"><span style="
+    color: #979ca2;
+    letter-spacing: -0.04em;
+    font-size: 1.4em;
+">dgfypro</span> Preview</p>
+  </div>
+<!-- end preview -->
 
+  <!-- start ws 15px-->
+  <a href="https://wa.me" target="_blank"><img src="assets/img/ftr/ws_btn.png" style="
+    width: 60px;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 999;
+"></a>
+ <!-- end ws -->
+ 
+    <header class="f-header js-f-header position-relative" style="position: absolute;">
+      <div class="f-header__mobile-content container max-width-lg">
+        <a href="#0" class="f-header__logo">
+          <img src="assets/img/logo.png" style="
+          filter: invert(1);
+      ">
+          <!-- <svg width="104" height="30" viewBox="0 0 104 30">
+            <title>Wonderlab</title>
+            <path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" fill="var(--color-contrast-higher)" />
+            <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+          </svg> -->
+        </a>
+    
+        <button class="reset anim-menu-btn js-anim-menu-btn f-header__nav-control js-tab-focus" aria-label="Toggle menu">
+          <i class="anim-menu-btn__icon anim-menu-btn__icon--close" aria-hidden="true"></i>
+        </button>
+      </div>
+    
+      <div class="f-header__nav" role="navigation">
+        <div class="f-header__nav-grid justify-between@md container max-width-lg">
+          <div class="f-header__nav-logo-wrapper flex-grow flex-basis-0">
+            <a href="#0" class="f-header__logo">
+              <img src="assets/img/logo.png" style="
+              filter: invert(1);
+          ">
+              <!-- <svg width="104" height="30" viewBox="0 0 104 30">
+                <title>Wonderlab</title>
+                <path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" fill="var(--color-contrast-higher)" />
+                <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+              </svg> -->
+            </a>
+          </div>
+    
+          <ul class="f-header__list flex-grow flex-basis-0 justify-center@md">
+            <li class="f-header__item"><a href="index.html" class="f-header__link" style="
+              filter: invert(1);
+          ">Home</a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link">
+                <span style="
+                filter: invert(1);
+            ">Brands</span>
+                <svg class="f-header__dropdown-icon icon" aria-hidden="true" viewBox="0 0 12 12">
+                  <path d="M6,9l4-5H2Z" /></svg>
+              </a>
+    
+              <ul class="f-header__dropdown">
+                <li><a href="wonder-dewi-mask.html" class="f-header__dropdown-link" 
+              ">Wonder Dewi Mask</a></li>
+                <li><a href="haruharu-black-rice-series.html" class="f-header__dropdown-link" 
+              ">Haruharu Black Rice Series</a></li>
+                <li><a href="well-nature-series.html" class="f-header__dropdown-link" 
+              ">Well Nature Series</a></li>
+              </ul>
+            </li>
+            <li class="f-header__item"><a href="join-us.html" class="f-header__link" aria-current="page" style="
+              filter: invert(1);
+          ">Join Us</a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+          </ul>
+    
+          <ul class="f-header__list flex-grow flex-basis-0 justify-end@md">
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+            <li class="f-header__item"><a href="#0" class="f-header__link"></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
-
-  <!-- <section class="display-none-web" style="background-color: #fae07e;">
-    <div class="feature__grid grid items-center">
-      <div class="col-12@md">
-          <img src="assets/img/asset3_2.png" data-aos="fade-down" data-aos-delay="100"
+  <main id="main-content">
+    <section class="hero min-height-100vh flex items-center" style="background-image: url('assets/img/h1/hero3.png">
+      <div class="container max-width-adaptive-sm">
+        <div class="text-center">
+          <div class="text-sm opacity-60% margin-bottom-xxs"></div>
+    
+          <div class="text-component margin-bottom-sm" data-aos="fade-up" data-aos-delay="100"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="display-none-mobile" style="background-color: #fae07e;">
-  <div class="feature__grid grid items-center">
-    <div class="col-6@md">
-        <img src="assets/img/asset3_1.png" data-aos="fade-up" data-aos-delay="100"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out">
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="feature padding-y-xl padding-bottom-xl" style="
-background-color: #eedacd;
-">
-  <div class="container max-width-adaptive-lg">
-    <div class="feature__grid grid grid-gap-md items-center">
-      <div class="col-6@md">
-        <div class="feature__item">
-          <div class="feature__label padding-bottom-xxs">Interested to join us?</div>
-  
-          <div class="text-component">
-            <h1 class="product1_v2" style="
-            font-size: 3.5em;
-        ">We invite
-              You to join
-              Our Team.</h1>
+            <p>Haruharu Wonder Black Rice Series</p>
+            <h1 class="hero-title" style="color: #3e4146!important;">The Power of Black Rice</h1>
+            <p></p>
           </div>
-          <div class="padding-top-sm">
-            <div class="flex flex-wrap flex-gap-sm items-center">
-              <a href="#0" class="color-inherit" style="
-              color: #df7946;
-              text-decoration: underline!important;
-          ">Apply Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section style="background-color: #7c636b; color: #ffffff;">
+      <div class="feature__grid grid items-center">
+        <h4 class="hero-title"style="
+        text-align: center;
+        font-size: 2.3em!important;
+        padding: 0.5em;
+    ">The Collections</h4>
+      </div>
+  </section>
+  <section style="background-color: #ffffff;">
+        <div class="container max-width-md padding-y-xl padding-bottom-xl aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <div class="grid grid-gap-lg">
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <!-- <span class="prod-card__badge" role="text">New <i class="sr-only">product</i></span> -->
+            
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/01.png">
+                </figure>
+              </a>
+            
+              <div class="prod-card__content text-left" style="
+              padding: 0;
+          ">
+                  <p class="product1_v3">WONDER Black Rice Hyaluronic Cream 50ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM93.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Water, Propanediol, Cetearyl Olivate, Sorbitan Olivate, Glycerin, Carthamus Tinctorius (Safflower) Seed Oil, Polyglyceryl-3 Stearate, Cetearyl Alcohol, Oryza Sativa (Rice) Extract(10,000ppm), Heptyl Undecylenate, Caprylic/Capric Triglyceride, Oenothera Biennis (Evening Primrose) Oil, Phyllostachys Pubescens Shoot Bark Extract(2,000ppm), Aspergillus Ferment, Panax Ginseng Root Extract, Cyclodextrin, Hyaluronic Acid(200ppm), Pulsatilla Koreana Extract, Zanthoxylum Piperitum Fruit Extract, Usnea Barbata (Lichen) Extract, Cetyl Palmitate, Sodium Phytate, Sorbitan Palmitate, 1,2-Hexanediol, Alcohol, Butylene Glycol, Lavandula Angustifolia (Lavender) Oil</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/02.png">
+                </figure>
+              </a>
+            
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Facial Oil 10ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM50.00</p>
+              </br>
+              <p style="
+              font-size: 0.6em; line-height: 1.5em;
+          ">Oryza Sativa (Rice) Bran Oil, Helianthus Annuus (Sunflower) Seed Oil, Caprylic/Capric Triglyceride, Triolein, Jojoba Oil/Macadamia Seed Oil Esters, Heptyl Undecylenate, Camellia Seed Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Tocopherol, Glyceryl Dioleate, Lavandula Angustifolia (Lavender) Oil
+             
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/03.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Facial Oil 30ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM130.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Oryza Sativa (Rice) Bran Oil, Helianthus Annuus (Sunflower) Seed Oil, Caprylic/Capric Triglyceride, Triolein, Jojoba Oil/Macadamia Seed Oil Esters, Heptyl Undecylenate, Camellia Seed Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Tocopherol, Glyceryl Dioleate, Lavandula Angustifolia (Lavender) Oil</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/04.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Hyaluronic Essence 50ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM118.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Water, Glycerin, Betaine, Propanediol, Oryza Sativa (Rice) Extract(10,00ppm), Phyllostachys Pubescens Shoot Bark Extract(2,00ppm), Aloe Vera Leaf Extract, Panax Ginseng Root Extract, Aspergillus Ferment, Hyaluronic Acid(2,000ppm), Beta-Glucan, Carbomer, Xanthan Gum, Trehalose, Tromethamine, 1,2-Hexanediol, Butylene Glycol, Sodium Phytate, Polyglyceryl-10 Laurate, Polyglyceryl-10 Myristate, Pulsatilla Koreana Extract, Usnea Barbata (Lichen) Extract, Zanthoxylum Piperitum Fruit Extract, Cyclodextrin, Alcohol, Lavandula Angustifolia (Lavender) Oil</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/05.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Serum 30ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM108.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Water, Glycerin, Betaine, Propanediol, Oryza Sativa (Rice) Extract(12,00ppm), Phyllostachys Pubescens Shoot Bark Extract(6,00ppm), Aspergillus Ferment, Panax Ginseng Root Extract, Cyclodextrin, Aloe Vera Leaf Extract, Yeast Beta-Glucan, Hyaluronic Acid, Xanthan Gum, 1,2-Hexanediol, Butylene Glycol, Trehalose, Sodium Phytate, Usnea Barbata (Lichen) Extract, Zanthoxylum Piperitum Fruit Extract, Pulsatilla Koreana Extract, Alcohol, Polyglyceryl-10 Myristate, Lavandula Angustifolia (Lavender) Oil</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/06.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Soft Peeling Gel 100ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM105.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Water, Propanediol, Alcohol, Betaine, Cellulose, Algin, Glycerin, Oryza Sativa (Rice) Extract(12,000ppm), Phyllostachys Pubescens Shoot Bark Extract(6,000ppm), Panax Ginseng Root Extract, Cyclodextrin, Aspergillus Ferment, Usnea Barbata (Lichen) Extract, Zanthoxylum Piperitum Fruit Extract, Pulsatilla Koreana Extract, Butylene Glycol, 1,2-Hexanediol, Polyglyceryl-10 Laurate, Polyglyceryl-10 Myristate, Lavandula Angustifolia (Lavender) Oil</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/07.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Hyaluronic Toner 150ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM75.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Water, Betaine, Glycerin, Propanediol, Oryza Sativa (Rice) Extract(2,000ppm), Phyllostachys Pubescens Shoot Bark Extract(6,000ppm), Aspergillus Ferment, Panax Ginseng Root Extract, Cyclodextrin, Scutellaria Baicalensis Root Extract, Hyaluronic Acid(600ppm), Beta-Glucan, Cellulose Gum, Xanthan Gum, Butylene Glycol, Usnea Barbata (Lichen) Extract, Zanthoxylum Piperitum Fruit Extract, Pulsatilla Koreana Extract, Sodium Phytate, Tamarindus Indica Seed Gum, Polyglyceryl-10 Laurate, Polyglyceryl-10 Myristate, Glucose, 1,2-Hexanediol, Alcohol, Lavandula Angustifolia (Lavender) Oil</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/08.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Hyaluronic Anti-wrinkle Serum 50ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM128.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Water, Glycerin, Lecithin, Caprylic/Capric Triglyceride, Camellia Seed Oil, Hydrogenated Lecithin, Helianthus Annuus (Sunflower) Seed Oil, Oryza Sativa (Rice) Extract(10,000ppm), Phyllostachys Pubescens Shoot Bark Extract(2,000ppm), Aspergillus Ferment, Hyaluronic Acid(2,000ppm), Panax Ginseng Root Extract, Cyclodextrin, Sclerotium Gum, C12-16 Alcohols, Palmitic Acid, ALteromonas Ferment Extract, Usnea Barbata (Lichen) Extract, Zanthoxylum Piperitum Fruit Extract, Pulsatilla Koreana Extract, Beta-Glucan, 1,2-Hexanediol, Glycine Soja (Soybean) Sterois, Behenyl Alcohol, Simmondsia Chinesis (Jojoba) Seed Oil, Glyceryl Stearate, Sodium Phytate, Tocopherol, Adenosine, Phenethl Alcohol, Butylene Glycol, Alcohol, Lavandula Angustifolia (Lavander) Oil</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6@sm col-3@md">
+            <div class="prod-card">
+              <a href="#0" class="prod-card__img-link" aria-label="Description of the link">
+                <figure class="prod-card__img">
+                  <img src="assets/img/h1/09.png">
+                </figure>
+              </a>
+            
+              
+                <div class="prod-card__content text-left" style="
+                padding: 0;
+            ">
+                  <p class="product1_v3">WONDER Black Rice Hyaluronic Toner 300ml</p>
+                  <br>
+                  <p class="text-padding-wline">RM126.00</p>
+                  <br>
+                  <p style="
+                  font-size: 0.6em; line-height: 1.5em;
+              ">Water, Betaine, Glycerin, Propanediol, Oryza Sativa (Rice) Extract(2,000ppm), Phyllostachys Pubescens Shoot Bark Extract(6,000ppm), Aspergillus Ferment, Panax Ginseng Root Extract, Cyclodextrin, Scutellaria Baicalensis Root Extract, Hyaluronic Acid(600ppm), Beta-Glucan, Cellulose Gum, Xanthan Gum, Butylene Glycol, Usnea Barbata (Lichen) Extract, Zanthoxylum Piperitum Fruit Extract, Pulsatilla Koreana Extract, Sodium Phytate, Tamarindus Indica Seed Gum, Polyglyceryl-10 Laurate, Polyglyceryl-10 Myristate, Glucose, 1,2-Hexanediol, Alcohol, Lavandula Angustifolia (Lavender) Oil</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="padding-y-xl padding-bottom-xl" style="
+    background-color:#f2f2f2;">
+      <div class="container max-width-md padding-y-md padding-bottom-xl">
+        <h2 class="text-center padding-bottom-md" style="
+        color: #7c636b;
+        font-family: 'Playfair Display',serif !important;"
+        >TRIAL KIT</h2>
+      <div class="grid grid-gap-md">
+        <div class="col-12@sm">
+            <div class="tabs js-tabs">
+                <ul class="flex flex-wrap gap-sm js-tabs__controls" aria-label="" style="
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                ">
+                  <li><a href="#tab1Panel1" class="tabs__control"><img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Hydration-Kit.jpg" class="mask-h"></a></li>
+                  <li><a href="#tab1Panel2" class="tabs__control"><img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Basic-Care-Kit.jpg" class="mask-h"></a></li>
+                  <li><a href="#tab1Panel3" class="tabs__control"><img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Anti-Aging-Kit.jpg" class="mask-h"></a></li>
+                </ul>
+              
+                <div class="js-tabs__panels padding-y-md">
+                  <section id="tab1Panel1" class="padding-top-md js-tabs__panel" style="
+                  background-color: #ffffff;
+                  padding: 1em 20px;
+              ">
+                    <div class="text-component">
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >Haruharu
+                      WONDER Black Rice Miniature Set – Hydration Kit</h4>
+                      <p class="text-padding-wline">The Hydration Kit is packed with naturally hydrating ingredients that will deliver a burst of hydration straight to your skin. Tone, mask and moisturise for a complete moisturising face care experience.</p>
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >Details</h4>
+
+                      <div class="grid grid-gap-md">
+                        <div class="col-6@sm">
+                          <img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Hydration-Kit-1x.png">
+                        </div>
+                        <div class="col-6@sm">
+                          <img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Hydration-Kit-1x2.png" style="max-height: 454px;">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/1-ingredients_2@2x.png">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/2-fermented@2x.png">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/3-UDT@2x.png">
+                        </div>
+                      </div>
+                     
+                     <div class="text-padding-wline"></div>
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >How to use</h4>
+                      <div class="col-12@sm">
+                        <img class="img-shrink-web" src="assets/img/h1/htu.png">
+                      </div>
+                    </div>
+                  </section>
+              
+                  <section id="tab1Panel2" class="padding-top-md js-tabs__panel" style="
+                  background-color: #ffffff;
+                  padding: 1em 20px;
+              ">
+                    <div class="text-component">
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >Haruharu
+                      WONDER Black Rice Miniature Set – Basic Care Kit (Antioxidant)</h4>
+                      <p class="text-padding-wline">Carry the Basic Care kit everywhere you go for that instant boost of nourishment for your skin.</p>
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >Details</h4>
+
+                      <div class="grid grid-gap-md">
+                        <div class="col-6@sm">
+                          <img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Basic-Care-Kit-1x.png">
+                        </div>
+                        <div class="col-6@sm">
+                          <img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Hydration-Kit-1x2.png" style="max-height: 454px;">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/1-ingredients_2@2x.png">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/2-fermented@2x.png">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/3-UDT@2x.png">
+                        </div>
+                      </div>
+                     
+                     <div class="text-padding-wline"></div>
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >How to use</h4>
+                      <div class="col-12@sm">
+                        <img class="img-shrink-web" src="assets/img/h1/htu2.png">
+                      </div>
+                    </div>
+                  </section>
+              
+                  <section id="tab1Panel3" class="padding-top-md js-tabs__panel" style="
+                  background-color: #ffffff;
+                  padding: 1em 20px;
+              ">
+                    <div class="text-component">
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >Haruharu
+                      WONDER Black Rice Miniature Set – Anti-aging Kit</h4>
+                      <p class="text-padding-wline">Replenish your skin’s moisture for a soft, glowing complexion with the Anti-aging Kit that comes complete with soothing and reparative products.</p>
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >Details</h4>
+
+                      <div class="grid grid-gap-md">
+                        <div class="col-6@sm">
+                          <img src="assets/img/h1/miniature-anti-wrinkle.png">
+                        </div>
+                        <div class="col-6@sm">
+                          <img src="assets/img/h1/Haruharu-WONDER-Miniature-Set-Hydration-Kit-1x2.png" style="max-height: 454px;">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/1-ingredients_2@2x.png">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/2-fermented@2x.png">
+                        </div>
+                        <div class="col-4@sm">
+                          <img src="assets/img/h1/3-UDT@2x.png">
+                        </div>
+                      </div>
+                     
+                     <div class="text-padding-wline"></div>
+                      <h4 style="
+                      color: #464646;
+                      font-family: 'Playfair Display',serif !important;"
+                      >How to use</h4>
+                      <div class="col-12@sm">
+                        <img class="img-shrink-web" src="assets/img/h1/htu3.png">
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
     
-      <div class="col-6@md">
-        <div class="dev-phone dev-phone--light-top padding-x-auto" aria-label="">
-         <img src="assets/img/asset5_1.png" data-aos="fade-up" data-aos-delay="100"
-         data-aos-duration="1000"
-         data-aos-easing="ease-in-out">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- carousel -->
-<!-- <section class="feature padding-y-xl padding-bottom-xl" style="
-background-color: #eedacd;
-">
-
-<div class="container">
-    <div class="row">
-      <div class="col-md-12 heroSlider-fixed">
-        <div class="overlay">
-      </div>
-         <!-- Slider 
-        <div class="slider responsive">
-          <div>
-						<img src="assets/img/inf/1.png" alt="" class="slider-img" />
-					</div>
-					<div>
-						<img src="assets/img/inf/2.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/3.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/4.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/5.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/6.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/7.png" alt="" class="slider-img"/>
-					</div>
-					<div>
-						<img src="assets/img/inf/8.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/9.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/10.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/11.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/12.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/13.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/14.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/15.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/16.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/17.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/18.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/19.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/20.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/21.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/22.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/23.png" alt="" class="slider-img"/>
-          </div>
-          <div>
-						<img src="assets/img/inf/24.png" alt="" class="slider-img"/>
-					</div>
-        </div>
-				 <!-- control arrows 
-				<div class="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				</div>
-				<div class="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				</div>
-				
-      </div>
-    </div>
-  </div>
-  
-</section> -->
-
-
-
-  <!-- <footer class="main-footer padding-y-md">
-    <div class="container max-width-md">
+  <footer class="main-footer padding-y-md">
+    <div class="container max-width-lg">
       <div class="main-footer__content">
         <div class="main-footer__logo">
           <img src="assets/img/logo.png" style="
@@ -215,39 +532,37 @@ background-color: #eedacd;
         <nav class="main-footer__nav">
           <ul class="main-footer__nav-list">
             <li class="main-footer__nav-item">
-              <h4 class="footer-text1">Home</h4>
+              <a href="index.html"><h4 class="footer-text1">Home</h4></a>
             </li>
   
             <li class="main-footer__nav-item">
-              <h4 class="footer-text1">Brands</h4>
+              <a href="index.html"><h4 class="footer-text1">Brands</h4></a>
             </li>
   
             <li class="main-footer__nav-item">
-              <h4 class="footer-text1">Join Us</h4>
+              <a href="join-us.html"><h4 class="footer-text1">Join Us</h4></a>
             </li>
           </ul>
         </nav>
+          <div class="main-footer__socials">
+          <a href="https://www.facebook.com/WonderLabOfficial/" target="_blank">
+            <img src="assets/img/ftr/fb_btn.png" width="30">
+          </a>
+  
+          <a href="https://www.instagram.com/wonderlabofficial/" target="_blank">
+            <img src="assets/img/ftr/ig_btn.png" width="30">
+          </a>
+  
+          <a href="https://www.youtube.com/channel/UCmjZBNX2DEpAGkImI24hVaQ" target="_blank">
+            <img src="assets/img/ftr/yt_btn.png" width="30">
+          </a>
+        </div>
       </div>
-    
         <div class="main-footer__colophon-nav text-center">
-          <span style="color:#ffffff">&copy; 2020 Mairazara Beauty Squad WonderLab All Rights Reserved. | Made by dgfypro</span>
-        </div> -->
-  
-        <!-- <div class="main-footer__socials">
-          <a href="#0">
-            <svg class="icon" viewBox="0 0 16 16"><title>Follow us on Twitter</title><g><path d="M16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1 C9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7C5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7 c-0.5,0-1-0.2-1.5-0.4c0,0,0,0,0,0c0,1.6,1.1,2.9,2.6,3.2C3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3 c-1.1,0.9-2.5,1.4-4.1,1.4c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4C15,4.3,15.6,3.7,16,3z"></path></g></svg>
-          </a>
-  
-          <a href="#0">
-            <svg class="icon" viewBox="0 0 16 16"><title>Follow us on Youtube</title><g><path d="M15.8,4.8c-0.2-1.3-0.8-2.2-2.2-2.4C11.4,2,8,2,8,2S4.6,2,2.4,2.4C1,2.6,0.3,3.5,0.2,4.8C0,6.1,0,8,0,8 s0,1.9,0.2,3.2c0.2,1.3,0.8,2.2,2.2,2.4C4.6,14,8,14,8,14s3.4,0,5.6-0.4c1.4-0.3,2-1.1,2.2-2.4C16,9.9,16,8,16,8S16,6.1,15.8,4.8z M6,11V5l5,3L6,11z"></path></g></svg>
-          </a>
-  
-          <a href="#0">
-            <svg class="icon" viewBox="0 0 16 16"><title>Follow us on Github</title><g><path  d="M8,0.2c-4.4,0-8,3.6-8,8c0,3.5,2.3,6.5,5.5,7.6 C5.9,15.9,6,15.6,6,15.4c0-0.2,0-0.7,0-1.4C3.8,14.5,3.3,13,3.3,13c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5 c0.8,0.1,1.2,0.8,1.2,0.8C4.4,13.4,5.6,13,6,12.8c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.6-0.9-3.6-4c0-0.9,0.3-1.6,0.8-2.1 c-0.1-0.2-0.4-1,0.1-2.1c0,0,0.7-0.2,2.2,0.8c0.6-0.2,1.3-0.3,2-0.3c0.7,0,1.4,0.1,2,0.3c1.5-1,2.2-0.8,2.2-0.8 c0.4,1.1,0.2,1.9,0.1,2.1c0.5,0.6,0.8,1.3,0.8,2.1c0,3.1-1.9,3.7-3.7,3.9C9.7,12,10,12.5,10,13.2c0,1.1,0,1.9,0,2.2 c0,0.2,0.1,0.5,0.6,0.4c3.2-1.1,5.5-4.1,5.5-7.6C16,3.8,12.4,0.2,8,0.2z"></path></g></svg>
-          </a>
-        </div> -->
-    <!-- </div>
-  </footer> -->
+          <span style="color:#ffffff">&copy; 2020 Mairazara Beauty Squad WonderLab All Rights Reserved. | Made by <a href="https://dgfypro.com" target="_blank">dgfypro</a></span>
+        </div>
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
